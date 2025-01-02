@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 
-# Commented out IPython magic to ensure Python compatibility.
 # %pip install mediapipe
 # %pip install cv2
 import cv2
