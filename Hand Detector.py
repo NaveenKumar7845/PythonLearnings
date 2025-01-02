@@ -19,8 +19,6 @@ if capture.read():
         flipedImage = cv2.flip(img, 1)
         RGBImage = cv2.cvtColor(flipedImage, cv2.COLOR_BGR2RGB)
         results = hands.process(RGBImage)
-        if cv2.waitKey(1) == ord('q'):
-            break
 
         if results.multi_hand_landmarks:
 
